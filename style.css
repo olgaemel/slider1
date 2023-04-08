@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+}
+
+body,
+html {
+  font-size: 14px;
+}
+
+button {
+  border: 1px solid black;
+  background: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(226, 149, 5);
+}
+
+button:active {
+  background: rgb(113, 170, 8);
+}
+
+.container {
+  max-width: 75%;
+
+  /* background-color: grey; */
+  padding: 20px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: left;
+  margin: 0 auto;
+  font-size: 36px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.slider {
+  /* border: 2px solid red; */
+  max-width: 80%;
+  max-height: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.slider-line {
+  display: flex;
+  /* background: orange; */
+  transition: all ease 1s;
+}
+
+.slider-line img {
+  max-width: 75%;
+}
